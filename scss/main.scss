@@ -1,0 +1,28 @@
+/**
+ * Main Styles.
+ */
+
+// sass main.scss ../style.min.css --style=compressed
+
+$breakpoint-tablet: 650px;
+$breakpoint-desktop: 1024px;
+
+$theme-main-color: #0038A8;
+$color-black: #151515;
+$color-white: #FEFAFC;
+$color-red: #E72F19;
+$color-pink: #FFC2E9;
+$color-purple: #543E5C;
+
+$theme-main-font: '';
+
+$img-directory: "img";
+
+
+@import '_normalize';
+@import '_fonts';
+@import '_skeleton';
+@import '_body-changes';
+@import '_header';
+@import '_footer';
+@import '_pages';

@@ -4,18 +4,38 @@
 <head>
   <meta charset="utf-8" />
   <title>Extra Sharp</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.min.css">
+
 </head>
 
 <body>
   <header>
+    <a class="logo" href="./home.html"><img src="./img/icon-hamburger.svg"></a>
 
+    <div class="hamburger-menu-container">
+      <button id="hamburger-button">
+        <img class="icon-hamburger" src="./img/icon-hamburger.svg">
+        <img class="icon-hamburger-close" src="./img/icon-hamburger-close.svg">
+      </button>
+
+      <nav id="main-nav">
+        <ul>
+          <li><a class="nav-link home" href="#">Inicio</a></li>
+          <li><a class="nav-link contacto" href="#">Contacto</a></li>
+          <li><a class="nav-link nosotres" href="#">Nosotres</a></li>
+          <li><a class="nav-link comunidad" href="#">Comunidad</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <main>
     <section id="inicio">
-      <p>Veo que entraste. <br>
-        ¿Sabés? Las apariencias engañan y te lo voy a demostrar.</p>
+      <p>Veo que entraste.<br>
+        ¿Sabés?<br>
+        Las apariencias engañan y te lo voy a demostrar.</p>
         <img src="./img/hello.svg">
       </section>
 
@@ -34,6 +54,9 @@
 
     <footer>
     </footer>
+
+    <!-- js -->
+    <script src="js/main.js"></script>
   </body>
 
   </html>

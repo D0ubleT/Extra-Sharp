@@ -1,0 +1,19 @@
+/*mobile first*/
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	width: 100%;
+	height: 60px;
+	background-color: $color-purple;
+	margin-top: 25px;
+	padding: 0 16px;
+}
+
+
+@media (min-width: $breakpoint-tablet) {
+
+}

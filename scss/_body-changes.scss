@@ -1,0 +1,17 @@
+/**
+* Styles changed via user interactions.
+*/
+* {
+	font-family: 'ink-free';
+  color: $color-white;
+}
+
+#menu-hamburger {
+	display: none;
+}
+
+body.hamburger-menu-active {
+	#menu-hamburger {
+		display: block;
+	}
+}

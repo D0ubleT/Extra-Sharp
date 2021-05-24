@@ -15,6 +15,14 @@ header {
 	top: 0;
 	left: 0;
 
+	nav {
+		display: none;
+
+		ul {
+			display: none;
+		}
+	}
+
 	a {
 		&.logo {
 			display: none;
@@ -37,35 +45,21 @@ header {
 	outline: none;
 }
 
-header nav {
-	width: 259px;
-	height: 130%;
-	position: fixed;
-	right: 0;
-	display: none;
-	font-size: 18px;
-
+nav {
 	ul {
-		list-style: none;
-		color: $color-white;
-		display: none;
-		text-align: right;
-		line-height: 40px;
-		position: absolute;
-		margin-top: 100px;
-		margin-right: 20px;
-		top: 0;
-		right: 0;
-
 		li {
 			&:hover {
-				color: #456952;
+				background-color: $color-pink;
+
+				a {
+					color: $color-black;
+				}
 			}
 		}
 	}
 }
 
-/* Estilos con menú hamburguesa abierto  */
+/* Estilos con menú hamburguesa abierto */
 body {
 	&.hamburger-menu-active {
 		overflow: hidden;
@@ -80,6 +74,10 @@ body {
 		}
 
 		header nav {
+			height: 130%;
+			position: fixed;
+			right: 0;
+			font-size: 18px;
 			display: block;
 			z-index: 3;
 			top: 59px;
@@ -87,18 +85,31 @@ body {
 			width: 100%;
 
 			ul {
+				list-style: none;
+				text-align: right;
+				line-height: 40px;
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 100%;
 				margin-top: 30px;
 				color: $color-white;
 				display: block;
 				z-index: 10;
+				padding: 0;
 
 				li {
 					margin-bottom: 20px;
+
+					a {
+						margin-right: 25px;
+					}
 				}
 			}
 		}
 	}
 }
+
 
 /*tablet*/
 @media (min-width: $breakpoint-tablet) {
@@ -130,12 +141,11 @@ body {
 			width: 100%;
 			height: 100%;
 			position: static;
+			
 			ul {
 				float: right;
 				display: block;
-				margin-right: 10px;
 				margin-top: 0;
-				margin-left: 10px;
 
 				li {
 					float: left;
@@ -143,12 +153,7 @@ body {
 					list-style-type: none;
 					width: auto;
 					height: auto;
-					padding: 10px 15px;
-
-					&:hover {
-						background-color: #84B5A9;
-						text-decoration: none;
-					}
+					padding: 20px 25px;
 
 					a {
 						color: $color-white;

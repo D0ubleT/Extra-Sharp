@@ -5,6 +5,8 @@ body {
 	&#fake-home {
 		background-color: $color-black;
 		main {
+			color: $color-white;
+
 			img {
 				max-width: 100%;
 				margin: 0 auto;
@@ -30,9 +32,33 @@ body {
 	main {
 		max-width: 100%;
 		margin: 60px auto 0;
+		color: $color-white;
+
+		i {
+			font-style: italic;
+		}
 
 		section {
-			height: 400px;
+			min-height: 400px;
+			padding: 25px;
+
+			article {
+
+				h1, h2 {
+					color: $color-black;
+					text-align: center;
+				}
+
+				p {
+					font-size: 18px;
+					color: $color-black;
+
+					strong {
+						color: $color-purple;
+					}
+				}
+			}
+
 
 			&#inicio {
 				padding-top: 60px;
@@ -60,6 +86,7 @@ body {
 				img {
 					height: 400px;
 					width: auto;
+					padding: 10px;
 
 					&.derecha {
 						float: right;
@@ -73,6 +100,12 @@ body {
 
 			&#musica {
 				background-color: $color-purple;
+
+				article {
+					p {
+						color: $color-white;
+					}
+				}
 
 				iframe {
 					margin: 0 auto;
@@ -106,7 +139,19 @@ body {
 			margin: 45px auto 0;
 
 			section {
-				height: 680px;
+				min-height: 680px;
+
+				article {
+
+					h1, h2 {
+						color: $color-black;
+						text-align: center;
+					}
+
+					p {
+						font-size: 24px;
+					}
+				}
 
 				&#inicio {
 					p {
@@ -122,6 +167,11 @@ body {
 
 				&#presentacion {
 
+					img {
+						height: 440px;
+						width: auto;
+						padding: 20px;
+					}
 				}
 
 				&#musica {

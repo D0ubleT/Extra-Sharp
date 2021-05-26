@@ -1,5 +1,3 @@
-/*mobile first*/
-
 footer {
 	display: flex;
 	flex-direction: row;
@@ -9,10 +7,6 @@ footer {
 	width: 100%;
 	height: 60px;
 	background-color: $color-purple;
-	padding: 0 16px;
-}
-
-
-@media (min-width: $breakpoint-tablet) {
-
+	padding: 0 40px;
+	color: $color-white;
 }

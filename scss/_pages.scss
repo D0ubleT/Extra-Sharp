@@ -52,6 +52,10 @@ body {
 					font-size: 18px;
 					color: $color-black;
 
+					del {
+						text-decoration: line-through;
+					}
+
 					strong {
 						color: $color-purple;
 					}

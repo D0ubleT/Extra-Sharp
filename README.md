@@ -5,4 +5,4 @@ Página inspirada en un personaje de rol. Una joven vampiro, adolescente a su ho
 
 Amy, sólo Amy, personaje de Vampiro: La Mascarada.
 
-Publicado en: https://doublet-doubled.github.io/Extra-Sharp/
+Publicado en: https://doublet-doubled.github.io/Extra-Sharp/home.html
